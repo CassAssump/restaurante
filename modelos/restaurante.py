@@ -1,5 +1,5 @@
 from modelos.avaliacao import Avaliacao
-
+####TESTE DE COMMIT PULL
 class Restaurante:
     restaurantes = []
 
