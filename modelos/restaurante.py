@@ -2,7 +2,7 @@ from modelos.avaliacao import Avaliacao
 ####TESTE DE COMMIT PULL
 class Restaurante:
     restaurantes = []
-
+######TESTE DE COMMIT
     def __init__(self, nome, categoria):
         self._nome = nome.title()
         self._categoria = categoria.upper()
@@ -39,3 +39,5 @@ class Restaurante:
         quantidade_de_notas = len(self._avaliacao)
         media = round(soma_das_notas / quantidade_de_notas, 1)
         return media
+
+obj = 3
