@@ -4,3 +4,4 @@ class Avaliacao:
         self._cliente = cliente
         self._nota = nota
   
+obj = 2
